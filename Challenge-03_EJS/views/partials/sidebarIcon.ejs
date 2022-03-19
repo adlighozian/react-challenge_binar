@@ -1,0 +1,37 @@
+<div class="sidebarIcon">
+    <div class="menu1">
+        <div class="img"></div>
+    </div>
+    <a href="/dashboard">
+        <div id="menu2" class="menu2">
+            <img src="/images/Dashboard_1png.png" alt="">
+            <p>Dashboard</p>
+        </div>
+    </a>
+    <a href="/cars">
+        <div id="menu3" class="menu3">
+
+            <img src="/images/fi_truck.png" alt="">
+            <p>Cars</p>
+
+        </div>
+    </a>
+</div>
+
+<!-- MENU -->
+<input id="param" type="hidden" value="<%= menu %>">
+<script>
+    let param = document.getElementById("param").value;
+    let menu2 = document.getElementById("menu2");
+    let menu3 = document.getElementById("menu3");
+
+    console.log(param);
+
+    if (param == "CARS") {
+        menu3.classList.add("active");
+        menu2.classList.remove("active");
+    } else if (param == "DASHBOARD") {
+        menu2.classList.add("active");
+        menu3.classList.remove("active");
+    }
+</script>

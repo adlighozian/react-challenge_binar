@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adli | challenge-2</title>
+</head>
+
+<body style="background:#2C313C ;">
+    <script>
+        // nomer 1
+        function changeWord(selectedText, changedText, text) {
+            const hasil = text.replace(selectedText, changedText);
+            return hasil;
+        }
+        const kalimat1 = "Andini sangat mencintai kamu selamanya";
+        const kalimat2 = "Gunung bromo tak akan mampu menggambarkan cintaku padamu";
+        console.log("Nomor 1");
+        console.log(changeWord("mencintai", "membenci", kalimat1));
+        console.log("");
+
+
+        // nomer 2
+        function checkTypeNumber(a) {
+            const para = a;
+            const dataType = typeof para;
+            if (para == null) {
+                return ("Error : Bro where is parameter?");
+            } else {
+                if (dataType == 'number') {
+                    if (para % 2 == 0) {
+                        return ("GENAP");
+                    } else {
+                        return ("GANJIL");
+                    }
+                } else {
+                    return ("Error : Invalid data type");
+                }
+            }
+        }
+        console.log("Nomor 2");
+        console.log(checkTypeNumber(2));
+        console.log(checkTypeNumber("2"));
+        console.log("");
+
+
+        // nomer 3
+        function ValidateEmail(inputText) {
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+            if (inputText == null || undefined) {
+                return ("tidak boleh kosong");
+            } else if (typeof inputText !== "string") {
+                return ("tidak boleh number")
+            } else {
+                if (inputText.match(mailformat)) {
+                    return ("VALID");
+                } else {
+                    return ("INVALID");
+                }
+            }
+        }
+        console.log("Nomor 3");
+        console.log(ValidateEmail("adli@g.com"));
+        console.log(ValidateEmail("adli@.c"));
+        console.log("");
+
+
+        // nomer 4
+        function password(isi) {
+            // Validate lowercase letters
+            let lowerCaseLetters = /[a-z]/g;
+            let upperCaseLetters = /[A-Z]/g;
+            let numbers = /[0-9]/g;
+            let lowercase, uppercase, no, lengths;
+            if (isi == null || undefined) {
+                return ("tidak boleh kosong");
+            } else if (typeof isi !== "string") {
+                return ("tidak boleh number")
+            } else {
+                if (isi.match(lowerCaseLetters)) {
+                    lowercase = ("true");
+                } else {
+                    lowercase = ("false");
+                }
+                if (isi.match(upperCaseLetters)) {
+                    uppercase = ("true");
+                } else {
+                    uppercase = ("false");
+                }
+                if (isi.match(numbers)) {
+                    no = ("true");
+                } else {
+                    no = ("false");
+                }
+                if (isi.length >= 8) {
+                    lengths = ("true");
+                } else {
+                    lengths = ("false");
+                }
+            }
+            let output =
+                "lowercase: " + `${lowercase}` +
+                ", uppercase: " + `${uppercase}` +
+                ", numbers: " + `${no}` +
+                ", lengths: " + `${lengths}`;
+
+            return output;
+        }
+        console.log("Nomor 4");
+        console.log(password("Adli1221"));
+        console.log("");
+
+
+        // nomer 5
+        function getSplitName(nama) {
+            let output;
+            if (nama == null || undefined) {
+                return ("tidak boleh kosong");
+            } else if (typeof nama !== "string") {
+                return ("tidak boleh number")
+            } else {
+                const array = [nama.split(' ')];
+                const firstname = array[0][0];
+                const middleName = array[0][1];
+                const lastName = array[0][2];
+                if (array[0].length == 3) {
+                    output = {
+                        firstname: `${firstname}`,
+                        middlename: `${middleName}`,
+                        lastname: `${lastName}`,
+                    };
+                } else if (array[0].length == 2) {
+                    output = {
+                        firstname: `${firstname}`,
+                        lastname: `${middleName}`,
+                    };
+                } else if (array[0].length == 1) {
+                    output = {
+                        firstname: `${firstname}`,
+                    };
+                } else {
+                    return ("kebanyakan cuma bisa 3 karakter ");
+                }
+            }
+            return output;
+        }
+        console.log("Nomor 5");
+        console.log(getSplitName("adli asd asda"));
+        console.log("");
+
+
+        // nomer 6
+        function getAngkaTerbesarKedua(angka) {
+
+            if (angka == null || undefined) {
+                return ("tidak boleh kosong");
+            } else {
+                angka.sort();
+                angka.reverse();
+                return (angka[1]);
+            }
+        }
+        const dataangka = [12, 41, 23, 43, 43];
+        console.log("Nomor 6");
+        console.log(getAngkaTerbesarKedua(dataangka));
+        console.log("");
+
+
+        // nomer 7
+        const dataPenjualanPakAldi = [{
+                namaProduct: 'Sepatu Futsal Nike Vapor Academy 8',
+                hargaSatuan: 760000,
+                kategori: "Sepatu Sport",
+                totalTerjual: 90,
+            },
+            {
+                namaProduct: 'Sepatu Warrior Tristan Black Brown High',
+                hargaSatuan: 960000,
+                kategori: "Sepatu Sneaker",
+                totalTerjual: 37,
+            },
+            {
+                namaProduct: 'Sepatu Warrior Tristan Maroon High ',
+                kategori: "Sepatu Sneaker",
+                hargaSatuan: 360000,
+                totalTerjual: 90,
+            },
+            {
+                namaProduct: 'Sepatu Warrior Rainbow Tosca Corduroy',
+                hargaSatuan: 120000,
+                kategori: "Sepatu Sneaker",
+                totalTerjual: 90,
+            }
+        ]
+
+        function getTotalPenjualan(data) {
+            let totalPenjualan = 0;
+            if (data == null || undefined) {
+                return ("tidak boleh kosong");
+            } else {
+                for (let i of data) {
+                    totalPenjualan += i.totalTerjual
+                }
+                return totalPenjualan;
+            }
+        }
+        console.log("Nomor 7");
+        console.log(getTotalPenjualan(dataPenjualanPakAldi));
+        console.log("");
+
+
+        // nomor 8
+        const dataPenjualanNovel = [{
+                idProduct: 'BOOK002421',
+                namaProduk: 'Pulang - Pergi',
+                penulis: 'Tere Liye',
+                hargaBeli: 60000,
+                hargaJual: 86000,
+                totalTerjual: 150,
+                sisaStok: 17,
+            },
+            {
+                idProduct: 'BOOK002351',
+                namaProduk: 'Selamat Tinggal',
+                penulis: 'Tere Liye',
+                hargaBeli: 75000,
+                hargaJual: 103000,
+                totalTerjual: 171,
+                sisaStok: 20,
+            },
+            {
+                idProduct: 'BOOK002941',
+                namaProduk: 'Garis Waktu',
+                penulis: 'Fiersa Besari',
+                hargaBeli: 67000,
+                hargaJual: 99000,
+                totalTerjual: 213,
+                sisaStok: 5,
+            },
+            {
+                idProduct: 'BOOK002941',
+                namaProduk: 'Laskar Pelangi',
+                penulis: 'Andrea Hirata',
+                hargaBeli: 55000,
+                hargaJual: 68000,
+                totalTerjual: 20,
+                sisaStok: 56,
+            },
+        ];
+
+        function getInfoPenjualan(data) {
+            let totalJual = 0,
+                totalKeuntungan = 0,
+                totalModal = 0,
+                persentaseKeuntungan = 0,
+                produkBukuTerlaris,
+                penulisTerlaris,
+                terlaris = 0,
+                produkTerlaris = 0,
+                currency = new Intl.NumberFormat("id-ID", {
+                    style: "currency",
+                    currency: "IDR",
+                });
+            if (data == null || undefined) {
+                return ("tidak boleh kosong");
+            } else {
+                for (let i = 0; i < data.length; i++) {
+                    totalModal += data[i].hargaBeli * (data[i].totalTerjual + data[i].sisaStok);
+                    totalJual += data[i].hargaJual * data[i].totalTerjual;
+                    if (data[i].totalTerjual > terlaris) {
+                        let produkTerlaris = i;
+                    }
+                }
+            }
+
+            let sortByTotalPenjualan = data;
+            sortByTotalPenjualan.sort(function (a, b) {
+                return b.totalTerjual - a.totalTerjual;
+            });
+
+            totalKeuntungan = totalJual - totalModal;
+            produkBukuTerlaris = data[produkTerlaris].namaProduk;
+            penulisTerlaris = sortByTotalPenjualan[0].penulis;
+            persentaseKeuntungan = (totalKeuntungan / totalModal) * 100;
+            let output = {
+                totalPenjualan: currency.format(totalJual),
+                totalKeuntungan: currency.format(totalKeuntungan),
+                totalModal: currency.format(totalModal),
+                persentaseKeuntungan: String(persentaseKeuntungan).substr(0, 5) + "%",
+                produkBukuTerlaris: produkBukuTerlaris,
+                penulisTerlaris: penulisTerlaris
+            };
+            return output;
+        }
+        console.log("Nomor 8");
+        console.log(getInfoPenjualan(dataPenjualanNovel));
+        console.log("");
+    </script>
+</body>
+
+</html>

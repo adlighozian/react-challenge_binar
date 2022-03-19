@@ -1,0 +1,9 @@
+@media screen and (max-width:500px) {
+    #swiperslide {
+        width: 300px;
+    }
+    .row.g-0 {
+        background-color: aqua;
+        width: 300px;
+    }
+}

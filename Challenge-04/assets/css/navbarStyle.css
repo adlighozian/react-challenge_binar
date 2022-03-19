@@ -1,0 +1,186 @@
+/* PARENT START */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+
+body {
+    display: flex;
+}
+
+.box1 {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    height: 90.7vh;
+}
+
+/* PARENT END */
+
+
+/* NAVBAR START */
+
+.navbar {
+    height: 9.3vh;
+    width: 100%;
+    background: #FEFEFE;
+}
+
+.navbar .menu1 {
+    width: 10%;
+    padding-left: 22px;
+}
+
+.navbar .menu2 {
+    width: 50%;
+    padding-left: 106px;
+}
+
+.navbar .menu3 {
+    width: 40%;
+    padding-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu3 .search {
+    width: 245px;
+}
+
+.navbar .menu3 .search button {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navbar .menu3 .profile {
+    display: flex;
+    margin-left: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    justify-content: space-between;
+}
+
+.navbar .menu3 .profile a {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding: 0px;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 34px;
+    background: #CFD4ED;
+}
+
+/* NAVBAR END */
+
+/* SIDEBAR_ICON START */
+
+.sidebarIcon {
+    display: flex;
+    width: 70px;
+    height: 100vh;
+    background: #0D28A6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebarIcon .menu1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarIcon .menu1 .img {
+    background: #CFD4ED;
+    width: 34px;
+    height: 34px;
+}
+
+.sidebarIcon .menu2 {
+    background: #FFFFFF4D;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13px;
+}
+
+.sidebarIcon .menu2 p {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.sidebarIcon .menu3 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13px;
+}
+
+.sidebarIcon .menu3 p {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+/* SIDEBAR_ICON END */
+
+/* SIDEBAR_MENU START */
+
+.sidebarMenu {
+    background: white;
+    width: 220px;
+    height: 100%;
+}
+
+/* SIDEBAR_MENU END */
+
+/* conte */
+.content {
+    background: #F4F5F7;
+    width: 100%;
+    height: 100%;
+}

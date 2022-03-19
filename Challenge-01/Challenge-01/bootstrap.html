@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootsrap</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="/Adli/Challenge-01/responsive.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/Adli/Challenge-01/css/style.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="/Adli/Challenge-01/css/responsive.css" />
+
+    <!-- bootstrap.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous ">
+    </script>
+</head>
+
+<body>
+    <div class="back">
+        <nav class="navbar navbar-expand-lg navbar-light" style="margin-bottom: 50px;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="bx bxs-shield-alt-2" style="color: #0a27a6"></i>
+                    Challange 1</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button type="button" class="btn btn-success">
+                                    Register
+                                </button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ===== Home ===== -->
+        <section class="home" id="home">
+            <div class="container d-flex flex-column justify-content-center">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="box">
+                            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+                            <p>
+                                Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga
+                                terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+                            </p>
+                            <a href="# "><button type="button " class="btn btn-success">
+                                    Mulai Sewa Mobil
+                                </button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center" style="height: 600px">
+                        <div class="image d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="/Adli/Challenge-01/img/mobil.png " alt="Binar Car Rental " />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ===== Service ===== -->
+    <section class="service" id="service" style="margin: 50px">
+        <div class="container">
+            <div class="row align-content-center">
+                <div class="col justify-content-center d-flex">
+                    <img id="service_img" class="img" src="/Adli/Challenge-01/img/service.png "
+                        alt="Binar Car Rental " />
+                </div>
+                <div class="col d-flex align-items-center">
+                    <div class="box">
+                        <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
+                        <p>
+                            Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan
+                            yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata,
+                            bisnis, wedding, meeting, dll.
+                        </p>
+                        <ul id="list_service">
+                            <li>
+                                <img id="check_list" src="/Adli/Challenge-01/img/check.png" alt=" " /> Sewa Mobil Dengan
+                                Supir di Bali 12 Jam
+                            </li>
+                            <li>
+                                <img id="check_list" src="/Adli/Challenge-01/img/check.png" alt=" " /> Sewa Mobil Lepas
+                                Kunci di Bali 24 Jam
+                            </li>
+                            <li>
+                                <img id="check_list" src="/Adli/Challenge-01/img/check.png" alt=" " /> Sewa Mobil Jangka
+                                Panjang Bulanan
+                            </li>
+                            <li>
+                                <img id="check_list" src="/Adli/Challenge-01/img/check.png" alt=" " /> Gratis Antar -
+                                Jemput Mobil di Bandara
+                            </li>
+                            <li>
+                                <img id="check_list" src="/Adli/Challenge-01/img/check.png" alt=" " /> Layanan Airport
+                                Transfer / Drop In Out
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Why US ===== -->
+    <section class="why" id="why" style="margin-top: 100px">
+        <div class="container d-flex flex-column justify-content-center">
+            <h1>Why Us?</h1>
+            <p>Mengapa harus pilih Binar Car Rental?</p>
+            <div class="container">
+                <div class="row" id="why ">
+                    <div class="col" style="margin-top: 20px">
+                        <div class="card" style="width: 18rem">
+                            <div class="card-body">
+                                <img src="/Adli/Challenge-01/img/why1.png " class="card-img-top" alt="... " />
+                                <h5 class="card-title">Mobil Lengkap</h5>
+                                <p class="card-text">
+                                    Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-top: 20px">
+                        <div class="card" style="width: 18rem">
+                            <div class="card-body">
+                                <img src="/Adli/Challenge-01/img/why2.png " class="card-img-top" alt="... " />
+                                <h5 class="card-title">Harga Murah</h5>
+                                <p class="card-text">
+                                    Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-top: 20px">
+                        <div class="card" style="width: 18rem">
+                            <div class="card-body">
+                                <img src="/Adli/Challenge-01/img/why3.png " class="card-img-top" alt="... " />
+                                <h5 class="card-title">Layanan 24 Jam</h5>
+                                <p class="card-text">
+                                    Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir
+                                    minggu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-top: 20px">
+                        <div class="card" style="width: 18rem">
+                            <div class="card-body">
+                                <img src="/Adli/Challenge-01/img/why4.png " class="card-img-top" alt="... " />
+                                <h5 class="card-title">Sopir Profesional</h5>
+                                <p class="card-text">
+                                    Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== testimonial ===== -->
+    <section class="testimonial" id="testimonial " style="margin-top: 100px">
+        <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100%">
+            <h1>Testimonial</h1>
+            <p>Berbagai review positif dari para pelanggan kami</p>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper d-flex justify-content-center">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                        <div class="card mb-3" style="max-width: 1040px">
+                            <div class="row g-0" id="swiperslide" style="background: #cfd4ed; width: 500px">
+                                <div class="col-md-4 justify-content-center align-items-center d-flex">
+                                    <img style="width: 130px; height: 130px; border-radius: 50%"
+                                        src="/Adli/Challenge-01/img/profile.png " class="img-fluid" alt="profile " />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <i class="bx bxs-star" style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i>
+                                        <p class="card-text" style="font-size: 10px">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                        </p>
+                                        <h6>John Dee 32, Bromo</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card mb-3" style="max-width: 1040px">
+                            <div class="row g-0" id="swiperslide" style="background: #cfd4ed; width: 500px">
+                                <div class="col-md-4 justify-content-center align-items-center d-flex">
+                                    <img style="width: 130px; height: 130px; border-radius: 50%"
+                                        src="/Adli/Challenge-01/img/profile.png " class="img-fluid" alt="profile " />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <i class="bx bxs-star" style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i>
+                                        <p class="card-text" style="font-size: 10px">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                        </p>
+                                        <h6>John Dee 32, Bromo</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card mb-3" style="max-width: 1040px">
+                            <div class="row g-0" id="swiperslide" style="background: #cfd4ed; width: 500px">
+                                <div class="col-md-4 justify-content-center align-items-center d-flex">
+                                    <img style="width: 130px; height: 130px; border-radius: 50%"
+                                        src="/Adli/Challenge-01/img/profile.png " class="img-fluid" alt="profile " />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <i class="bx bxs-star" style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i><i class="bx bxs-star"
+                                            style="color: #f9cc00"></i>
+                                        <p class="card-text" style="font-size: 10px">
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”
+                                        </p>
+                                        <h6>John Dee 32, Bromo</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="prevnext">
+                    <div class="swiper-prev"><i class="bx bx-chevron-left"></i></div>
+                    <div class="swiper-next"><i class="bx bx-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper ", {
+                slidesPerView: 3,
+                spaceBetween: 300,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".swiper-pagination ",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-next",
+                    prevEl: ".swiper-prev",
+                },
+            });
+        </script>
+
+        <div class="container" style="margin-top: 100px">
+            <div class="card">
+                <div class="card-body d-flex align-items-center flex-column" role="alert "
+                    style="background: #0d28a6; border-radius: 10px">
+                    <h3 style="color: white; margin: 20px 0; text-align: center">
+                        Sewa Mobil di (Lokasimu) Sekarang
+                    </h3>
+                    <p style="
+                color: white;
+                max-width: 9500px;
+                margin: 15px 0;
+                text-align: center;
+              ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <button type="button " class="btn" style="
+                margin: 50px 0;
+                border-radius: 3px;
+                background: #5cb85f;
+                color: white;
+              ">
+                        Mulai Sewa Mobil
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container" style="margin-top: 100px">
+            <div class="row">
+                <div class="col">
+                    <h3>Frequently Asked Question</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div class="col">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Apa saja syarat yang dibutuhkan?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Berapa hari minimal sewa mobil lepas kunci?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
+                                    imagine this being filled with some actual content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the third item's accordion body.
+                                    Nothing more exciting happening here in terms of content, but just filling up the
+                                    space to make it look, at least at first glance, a bit
+                                    more representative of how this would look in a real-world application.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Apakah Ada biaya antar-jemput?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the third item's accordion body.
+                                    Nothing more exciting happening here in terms of content, but just filling up the
+                                    space to make it look, at least at first glance, a bit
+                                    more representative of how this would look in a real-world application.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Bagaimana jika terjadi kecelakaan
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the third item's accordion body.
+                                    Nothing more exciting happening here in terms of content, but just filling up the
+                                    space to make it look, at least at first glance, a bit
+                                    more representative of how this would look in a real-world application.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="margin-top: 100px">
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                        <p>binarcarrental@gmail.com</p>
+                        <p>081-233-334-808</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>Our services</h6>
+                    <h6>Why Us</h6>
+                    <h6>testimonial</h6>
+                    <h6>FAQ</h6>
+                </div>
+                <div class="col">
+                    <p>Connect with us</p>
+                    <img src="/Adli/Challenge-01/img/list_item.png" alt="" />
+                </div>
+                <div class="col">
+                    <p>Copyright Binar 2022</p>
+                    <a class="navbar-brand" href="#"><i class="bx bxs-shield-alt-2" style="color: #0a27a6"></i>
+                        Challange 1</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

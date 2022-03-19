@@ -1,0 +1,72 @@
+/* NAVBAR START */
+
+.navbar {
+    height: 9.3vh;
+    width: 100%;
+    background: #FEFEFE;
+}
+
+.navbar .menu1 {
+    width: 10%;
+    padding-left: 22px;
+}
+
+.navbar .menu2 {
+    width: 50%;
+    padding-left: 106px;
+}
+
+.navbar .menu3 {
+    width: 40%;
+    padding-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu3 .search {
+    width: 245px;
+}
+
+.navbar .menu3 .search button {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navbar .menu3 .profile {
+    display: flex;
+    margin-left: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    justify-content: space-between;
+}
+
+.navbar .menu3 .profile a {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding: 0px;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 34px;
+    background: #CFD4ED;
+}
+
+/* NAVBAR END */
+
+/* CONTEN START */
+
+/* CONTEN END */
