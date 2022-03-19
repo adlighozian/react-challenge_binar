@@ -69,4 +69,10 @@
 
 /* CONTEN START */
 
+.content {
+    height: 90.7vh;
+    width: 100%;
+    background: #F4F5F7;
+}
+
 /* CONTEN END */
