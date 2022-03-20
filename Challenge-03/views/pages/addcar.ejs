@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/head"); %>
+    <!-- CSS START -->
+    <link rel="stylesheet" href="/stylesheets/pages/carsStyle.css" />
+    <!-- CSS END -->
+</head>
+
+<body>
+    <!-- SIDEBAR_ICON START -->
+    <%- include("../partials/sidebarIcon"); %>
+    <!-- SIDEBAR_ICON END -->
+    <div class="box1">
+        <header>
+            <!-- NAVBAR START -->
+            <%- include("../partials/navbar"); %>
+            <!-- NAVBAR END -->
+        </header>
+        <main>
+            <!-- SIDEBAR_MENU START -->
+            <%- include("../partials/sidebarMenu"); %>
+            <!-- SIDEBAR_MENU END -->
+            <!-- CONTENT START -->
+            <div class="content">
+                <div class="upper">
+                    <span class="text1">Cars <i class='bx bx-chevron-right'></i> List Car <i
+                            class='bx bx-chevron-right'></i> </span><span class="text2">Add New Car</span>
+                </div>
+                <div class="middle">
+                    <span>Add New Car</span>
+                </div>
+                <div class="main">
+                    <form action="">
+                        <div class="box">
+                            <div class="line1 d-flex align-items-center">
+                                <label for="">Nama<span>*</span></label>
+                                <input type="text" class="input" placeholder="Nama">
+                            </div>
+                            <div class="line2 d-flex align-items-center">
+                                <label for="">Harga<span>*</span></label>
+                                <input type="text" class="input" placeholder="Harga">
+                            </div>
+                            <div class="line3 d-flex align-items-center">
+                                <label for="">Foto<span>*</span></label>
+                                <i class='bx bx-upload'></i>
+                                <div class="boxline3">
+                                    <input type="text" class="input" placeholder="Foto">
+                                    <span class="">File size max. 2MB</span>
+                                </div>
+                            </div>
+                            <div class="line4 d-flex align-items-center">
+                                <label for="">Start Rent</label>
+                                <span>-</span>
+                            </div>
+                            <div class="line5 d-flex align-items-center">
+                                <label for="">Finish Rent</label>
+                                <span>-</span>
+                            </div>
+                            <div class="line6 d-flex align-items-center">
+                                <label for="">Created at</label>
+                                <span>-</span>
+                            </div>
+                            <div class="line7 d-flex align-items-center">
+                                <label for="">Updated at</label>
+                                <span>-</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer">
+                    <a class="text-decoration-none" href="/cars">
+                        <button class="cancel">Cancel</button>
+                    </a>
+                    <button class="submit">save</button>
+                </div>
+            </div>
+            <!-- CONTENT END -->
+        </main>
+    </div>
+
+</body>
+
+</html>
