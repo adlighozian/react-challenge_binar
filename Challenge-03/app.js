@@ -4,10 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var dashboardRouter = require('./routes/dashboardRoutes')
-var loginRouter = require('./routes/loginRoutes')
-var carsRouter = require('./routes/carsRoutes')
-var addcar = require('./routes/addcarRoutes')
+// var dashboardRouter = require('./routes/dashboardRoutes')
+// var loginRouter = require('./routes/loginRoutes')
+// var carsRouter = require('./routes/carsRoutes')
+// var addcar = require('./routes/addcarRoutes')
+
+const router = require('./routes/index')
 
 var app = express();
 
@@ -21,10 +23,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', loginRouter);
-app.use('/dashboard', dashboardRouter);
-app.use('/cars', carsRouter);
-app.use('/addcars', addcar);
+app.use('/',router);
+
+// app.use('/', loginRouter);
+// app.use('/dashboard', dashboardRouter);
+// app.use('/cars', carsRouter);
+// app.use('/addcars', addcar);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

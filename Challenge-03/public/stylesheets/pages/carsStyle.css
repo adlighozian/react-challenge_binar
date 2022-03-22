@@ -254,3 +254,21 @@
 }
 
 /* MODAL END */
+
+/* MODAL_SUCCESS START */
+
+.alert {
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    background: #151515;
+    color: white;
+    width: 518px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+/* MODAL_SUCCESS END */

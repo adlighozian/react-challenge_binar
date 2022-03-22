@@ -3,13 +3,13 @@
 
 // /* GET home page. */
 // router.get('/', function(req, res, next) {
-//   res.render('pages/addcar', { title: 'Challenge-02 | addCars', menu: "CARS",list:"List Car" });
+//   res.render('pages/cars', { title: 'Challenge-02 | Cars', menu: "CARS",list:"List Car" });
 // });
 
 // module.exports = router;
 
 const router = require("express").Router();
-const page = require ("../controllers/addcarController");
+const page = require ("../controllers/carController");
 
-router.get("/addcar",page.home);
+router.get("/cars",page.home);
 module.exports = router;
