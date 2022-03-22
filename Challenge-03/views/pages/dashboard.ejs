@@ -24,7 +24,26 @@
             <!-- SIDEBAR_MENU END -->
             <!-- CONTENT START -->
             <div class="content">
-                <div class="kotak"></div>
+                <!-- UPPER START -->
+                <div class="upper">
+                    <span class="text1">Dashboard <i class='bx bx-chevron-right'></i> </span><span
+                        class="text2">Dashboard
+                        car</span>
+                </div>
+                <!-- UPPER END -->
+                <!-- MIDDLE START -->
+                <div class="middle">
+                    <span>Dashboard</span>
+                </div>
+                <!-- MIDDLE END -->
+                <!-- MAIN START -->
+                <div class="main">
+                    <!-- TABLE START -->
+                    <%- include("../partials/dashboard/tableOrder"); %>
+                    <%- include("../partials/dashboard/tableCar"); %>
+                    <!-- TABLE END -->
+                </div>
+                <!-- MAIN END -->
             </div>
             <!-- CONTENT END -->
         </main>
