@@ -1,7 +1,3 @@
-// exports.home = (req,res) => {
-//   res.render('pages/car', { title: 'Challenge-02 | Cars', menu: "CARS",list:"List Car" });
-// };
-
 const car = require('../models/carModel.json')
 
 module.exports = {
@@ -10,8 +6,10 @@ module.exports = {
             data: {
                 posts: car
             },
-            contentName: 'Post'
+            title: 'Challenge-03 | Cars', 
+            menu: "CARS",
+            list:"List Car"
         }
-        res.render('pages/car', locals)
+        res.render('pages/car', locals);
     }
 }
