@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router()
 const carPage = require ("../controllers/carController");
+const addcarPage = require ("../controllers/addcarController");
 
 // GET page
 router.get("/editcar",function(req, res, next) {
@@ -19,11 +20,8 @@ router.get("/addcar",function(req, res, next) {
     res.render('pages/addcar', { title: 'Challenge-03 | Addcar', menu: "CARS",list:"List Car" });
   });
 
-// router.get("/cars",function(req, res, next) {
-//     res.render('pages/car', { title: 'Challenge-03 | Cars', menu: "CARS",list:"List Car" });
-//   });
-  
-
 router.get('/cars', carPage.index)
+
+router.post("/addcar", addcarPage.postItem)
 
 module.exports = router;

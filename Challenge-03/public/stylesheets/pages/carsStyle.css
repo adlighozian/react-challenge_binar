@@ -118,7 +118,7 @@
     transition: 1s;
 }
 
-.content .main.active{
+.content .main.active {
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -253,9 +253,25 @@
 .modal .dialog .isi .footer {
     height: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 80px;
+}
+
+.modal .dialog .isi .footer button {
+    width: 100px;
+}
+
+.modal .dialog .isi .footer .btn.satu {
+    background: #0D28A6;
+    color: white;
+    transition: 0.3s;
+}
+
+.modal .dialog .isi .footer .btn.dua {
+    border: solid 3px #0D28A6;
+    color: #0D28A6;
+    margin-left: 20px;
 }
 
 /* MODAL END */
