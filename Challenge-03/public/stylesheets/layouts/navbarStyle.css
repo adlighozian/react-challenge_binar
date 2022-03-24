@@ -4,21 +4,18 @@
     height: 9.3vh;
     width: 100%;
     background: #FEFEFE;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 7px 0px 10px #888888;
 }
 
-.navbar .menu1 {
-    width: 10%;
-    padding-left: 22px;
-}
 
-.navbar .menu2 {
-    width: 50%;
-    padding-left: 106px;
+.navbar .menu2 img {
+    cursor: pointer;
 }
 
 .navbar .menu3 {
-    width: 40%;
-    padding-left: 200px;
     display: flex;
     align-items: center;
 }
@@ -57,12 +54,6 @@
     text-align: center;
     color: black;
     padding: 0px;
-}
-
-.navbar .logo {
-    width: 100px;
-    height: 34px;
-    background: #CFD4ED;
 }
 
 /* NAVBAR END */

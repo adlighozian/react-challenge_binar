@@ -255,20 +255,32 @@
 
 /* MODAL END */
 
-/* MODAL_SUCCESS START */
+/* TOAST START */
 
-.alert {
+.toast {
     position: absolute;
     top: 13%;
     left: 40%;
     background: #151515;
     color: white;
     width: 518px;
-    height: 24px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
-/* MODAL_SUCCESS END */
+.toast.fail {
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    background: #151515;
+    color: white;
+    width: 518px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TOAST END */

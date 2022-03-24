@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Toyota Innova",
+      "category": "MPV",
+      "price": 650000,
+      "start_rent": "2022-03-21",
+      "finish_rent": "2022-03-21",
+      "createdAt": "2022-03-21",
+      "updatedAt": "2022-03-21",
+      "id": "10000001"
+    },
+    {
+        "name": "Toyota Avanza",
+        "category": "MPV",
+        "price": 350000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000002"
+      },
+      {
+        "name": "Toyota Alphard",
+        "category": "MPV",
+        "price": 1500000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000003"
+      },
+      {
+        "name": "Toyota Camry",
+        "category": "Sedan",
+        "price": 1500000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000004"
+      },
+      {
+        "name": "Toyota Rush",
+        "category": "SUV",
+        "price": 500000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000005"
+      },
+      {
+        "name": "Toyota Fortuner",
+        "category": "SUV",
+        "price": 1200000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000006"
+      },
+      {
+        "name": "Toyota Yaris",
+        "category": "City Car",
+        "price": 650000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000007"
+      },
+      {
+        "name": "Toyota Raize",
+        "category": "City Car",
+        "price": 500000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000008"
+      },
+      {
+        "name": "Toyota Agya",
+        "category": "LCGC",
+        "price": 350000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000009"
+      },
+      {
+        "name": "Toyota Calya",
+        "category": "LCGC",
+        "price": 350000,
+        "start_rent": "2022-03-21",
+        "finish_rent": "2022-03-21",
+        "createdAt": "2022-03-21",
+        "updatedAt": "2022-03-21",
+        "id": "10000010"
+      }
+  ]
+  
