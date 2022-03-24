@@ -115,6 +115,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    transition: 1s;
 }
 
 .content .main.active{
