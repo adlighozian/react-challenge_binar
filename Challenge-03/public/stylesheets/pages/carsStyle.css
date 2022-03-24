@@ -114,6 +114,10 @@
     padding-left: 35px;
     box-sizing: border-box;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content .main.active{
     grid-template-columns: repeat(4, 1fr);
 }
 
