@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../views/home/home";
-import About from "../views/detail/about";
+import Home from "../views/pages/home";
 
 function Router(props) {
   return (
@@ -9,7 +8,6 @@ function Router(props) {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="detail/:slug" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

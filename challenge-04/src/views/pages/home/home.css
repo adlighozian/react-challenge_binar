@@ -1,0 +1,124 @@
+.belakang {
+    background: #F1F3FF;
+    width: 100%;
+    height: 504px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.boxr {
+    width: 100%;
+    height: 100%;
+    /* border: blue solid; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.boxl {
+    width: 100%;
+    height: 100%;
+    /* border: blue solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 120px;
+}
+
+.box {
+    width: 100%;
+    height: 425px;
+    /* background: lightcoral; */
+    display: flex;
+}
+
+.txt1 {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.txt2 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.car_icon {
+    position: absolute;
+    width: 704px;
+    height: 407px;
+}
+
+.box2 {
+    height: 60px;
+    width: 100%;
+    /* background: lightgreen; */
+    display: flex;
+    justify-content: center;
+}
+
+.box2 .form {
+    position: absolute;
+    width: 1047px;
+    height: 106px;
+    background: white;
+    border: solid #00000026;
+    margin-top: -50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.form2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.form3 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.form4 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.form5 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
