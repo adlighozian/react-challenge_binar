@@ -1,0 +1,28 @@
+.back {
+    height: 200px;
+    width: 100%;
+    background: #F1F3FF;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}
+
+.bot {
+    margin-bottom: 120px;
+}
+
+.box1 {
+    padding: 0 190px;
+    display: flex;
+    background: lightcyan;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.card {
+    width: 25%;
+    height: 100%;
+}

@@ -1,0 +1,20 @@
+.box2 {
+    height: 60px;
+    width: 100%;
+    /* background: lightgreen; */
+    display: flex;
+    justify-content: center;
+}
+
+.box2 .form {
+    position: absolute;
+    width: 1047px;
+    height: 106px;
+    background: white;
+    border: solid #00000026;
+    margin-top: -50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
