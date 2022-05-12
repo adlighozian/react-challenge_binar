@@ -1,13 +1,14 @@
 import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+
+import { getCarList } from "../stores/actions/carAction";
 import Navbar from "../components/Navbar";
 import FormSearch from "../components/FormSearch";
 import Footer from "../components/Footer";
 import LayerJumb from "../components/LayerJumb";
 import Card from "../components/Card";
-import { Container, Row, Col } from "reactstrap";
-import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { getCarList } from "../stores/actions/carAction";
 
 function Result() {
   const { getListCarResult } = useSelector((state) => state.carReducer);
