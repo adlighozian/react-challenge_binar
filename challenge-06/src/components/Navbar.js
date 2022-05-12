@@ -50,9 +50,9 @@ function NavigationBar() {
                   </a>
                 </li>
                 <li className="nav-item px-2">
-                  <a className="btn btn-login btn-success" href="#test">
-                    Register
-                  </a>
+                  <Link to="/login" className="btn btn-login btn-success">
+                    Login
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -3,6 +3,10 @@
     padding: 20px 0px;
 }
 
+.navbar .ul a {
+    color: black;
+}
+
 .img-brand {
     width: 100px;
 }

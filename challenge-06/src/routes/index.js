@@ -6,14 +6,14 @@ import Landing from "../pages/LandingPage";
 
 function RouterPages() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
