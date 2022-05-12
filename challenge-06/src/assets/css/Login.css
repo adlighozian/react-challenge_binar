@@ -1,0 +1,58 @@
+/* LEFT_SIDE START */
+
+.left_side {
+    background: #0D28A6;
+    width: 68%;
+    height: 100vh;
+}
+
+/* LEFT_SIDE END */
+
+/* RIGHT_SIDE START */
+
+.right_side {
+    background: #FFFFFF;
+    width: 32%;
+    height: 100vh;
+}
+
+/* RIGHT_SIDE END */
+
+/* FORM START */
+
+.login .form {
+    width: 370px;
+    height: 353px;
+}
+
+.login .form .logo {
+    background: #CFD4ED;
+    width: 100px;
+    height: 34px;
+}
+
+.login .form p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.login .form form {
+    height: 100%;
+}
+
+.login .form #btn {
+    background: #0D28A6;
+    color: white;
+    width: 100%;
+}
+
+.login #btn1 {
+    width: 100%;
+}
+
+/* FORM END */

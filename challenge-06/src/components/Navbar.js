@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../assets/css/Navbar.css";
 import logo from "../assets/img/logo.png";
+import "../assets/css/Navbar.css";
 
-class Navbar extends React.Component {
-  render() {
-    return (
+function NavigationBar() {
+  return (
+    <div>
       <header className="sticky-top">
         <nav className="navbar navbar-expand-lg">
           <div className="container">
@@ -59,8 +59,7 @@ class Navbar extends React.Component {
           </div>
         </nav>
       </header>
-    );
-  }
+    </div>
+  );
 }
-
-export default Navbar;
+export default NavigationBar;
