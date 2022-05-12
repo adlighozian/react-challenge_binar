@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom/client";
 import { applyMiddleware, compose, createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducers from "./stores/reducers";
 import thunk from "redux-thunk";
 import reportWebVitals from "./reportWebVitals";
 import Router from "./routes";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
