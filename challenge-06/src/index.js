@@ -7,6 +7,7 @@ import rootReducers from "./stores/reducers";
 import thunk from "redux-thunk";
 import reportWebVitals from "./reportWebVitals";
 import Router from "./routes";
+import { AuthProvider } from "./context/AuthProvider";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +16,9 @@ const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
 
 root.render(
   <Provider store={store}>
-    <Router />
+    <AuthProvider>
+      <Router />
+    </AuthProvider>
   </Provider>
 );
 
