@@ -1,0 +1,17 @@
+.main {
+    width: 100%;
+    height: 91.5vh;
+    background: lightcyan;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background: darkgreen;
+}
+
+p {
+    color: white;
+    size: 12px;
+    font-weight: 500;
+}
