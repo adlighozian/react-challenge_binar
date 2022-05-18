@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 24px 0;
+    background: #F1F3FF;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: ease .5s;
+}
