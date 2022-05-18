@@ -16,9 +16,9 @@ const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
 
 root.render(
   <Provider store={store}>
-    <AuthProvider>
-      <Router />
-    </AuthProvider>
+    {/* <AuthProvider> */}
+    <Router />
+    {/* </AuthProvider> */}
   </Provider>
 );
 
