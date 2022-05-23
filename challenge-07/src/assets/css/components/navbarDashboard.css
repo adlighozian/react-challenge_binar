@@ -1,0 +1,20 @@
+.navbar {
+    width: 100%;
+    height: 8vh;
+    background: white;
+    padding: 0px 10px;
+}
+
+.navbar i {
+    cursor: pointer;
+}
+
+.navbar .profile .img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.navbar .profile img {
+    width: 30px;
+}

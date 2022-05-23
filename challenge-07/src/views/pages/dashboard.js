@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import DashboardLayout from "../layouts/dashboardLayout";
 
 function Dashboard() {
   return (
-    <div className="App">
-      <h1>ini halaman Dashboard</h1>
-      <Link to="/">Home</Link>
-    </div>
+    <section>
+      <DashboardLayout />
+    </section>
   );
 }
 
