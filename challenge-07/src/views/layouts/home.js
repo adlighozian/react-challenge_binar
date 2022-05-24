@@ -11,6 +11,8 @@ import {
   Legend,
 } from "chart.js";
 
+import NavigationBar from "../components/navbarLanding";
+import FooterBar from "../components/footerLanding";
 import car from "../../assets/img/landing_car.png";
 import service from "../../assets/img/img_service.png";
 import ceklis from "../../assets/img/ceklis_service.svg";
@@ -20,6 +22,7 @@ import icon_3 from "../../assets/img/icon_24hrs.svg";
 import icon_4 from "../../assets/img/icon_professional.svg";
 
 import "../../assets/css/layouts/home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   const labels = ["january", "february", "march", "april", "may", "june"];
@@ -60,6 +63,9 @@ function Home() {
 
   return (
     <section>
+      {/* NAVBAR_START */}
+      <NavigationBar />
+      {/* NAVBAR_END */}
       {/* HOME_START */}
       <section className="home d-flex align-items-center overflow-hidden">
         {/* LEFTSIDE_START */}
@@ -72,9 +78,11 @@ function Home() {
             terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
             untuk sewa mobil selama 24 jam.
           </p>
-          <button type="button" class="btn btn-success">
-            Mulai Sewa Mobil
-          </button>
+          <Link to={"sewa"}>
+            <button type="button" class="btn btn-success">
+              Mulai Sewa Mobil
+            </button>
+          </Link>
         </div>
         {/* LEFTSIDE_END */}
         {/* RIGHTSIDE_START */}
@@ -173,6 +181,9 @@ function Home() {
         </div>
       </section>
       {/* CHART_END */}
+      {/* FOOTER_START */}
+      <FooterBar />
+      {/* FOOTER_END */}
     </section>
   );
 }

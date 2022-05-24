@@ -6,23 +6,18 @@ function navbarDashboard() {
   return (
     <section>
       <nav>
-        <div className="navbar d-flex justify-content-between">
+        <div className="navbarDashboard d-flex justify-content-between">
           <i id="menu-btn" className="bx bx-menu"></i>
           <div className="profile d-flex align-items-center">
-            <div className="img d-flex align-items-center justify-content-center overflow-hidden">
-              {/* <img src="assets/img/profile.png" alt="profile"> */}
-            </div>
+            <div className="img d-flex align-items-center justify-content-center overflow-hidden"></div>
             <div className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#">
                 Hi, Adli Ghozian
               </a>
-              <ul
-                className="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdown"
-              >
+              <ul className="dropdown-menu dropdown-menu-end">
                 <li>
                   <a
-                    href="/"
+                    href="#"
                     className="dropdown-item d-flex align-items-center justify-content-center"
                   >
                     Logout

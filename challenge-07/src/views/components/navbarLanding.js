@@ -12,9 +12,9 @@ function NavigationBar() {
       <nav class="navbar d-flex align-item-center justify-content-between ">
         {/* LEFT_START */}
         <div className="left d-flex align-items-center ">
-          <a href="">
+          <Link to={"/"}>
             <img src={logo}></img>
-          </a>
+          </Link>
         </div>
         {/* LEFT_END */}
         {/* RIGHT_START */}
@@ -25,7 +25,7 @@ function NavigationBar() {
           <a href="#">FAQ</a>
           <a href="dashboard">
             <button type="button" class="btn btn-success">
-              Dashboard
+              Login
             </button>
           </a>
         </div>
