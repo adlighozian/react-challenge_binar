@@ -63,7 +63,7 @@ function detailCar() {
               </div>
             </div>
             <div className="button">
-              <Link to={"/detail"}>
+              <Link to={"/tiket"}>
                 <Button variant="success">Lanjutkan Pembayaran</Button>
               </Link>
             </div>
