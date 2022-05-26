@@ -19,7 +19,9 @@ function dashboardLayout() {
           <NavbarDashboard />
           {/* NAVBAR_END */}
           {/* MAIN_START */}
-          <div className="main">ini main</div>
+          <div className="main">
+            <div className="top"></div>
+          </div>
           {/* MAIN_END */}
         </div>
       </section>
