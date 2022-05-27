@@ -7,6 +7,7 @@ import ListCar from "../views/layouts/listCar";
 import Detail from "../views/layouts/detailCar";
 import Tiket from "../views/layouts/tiket";
 import Dashboard from "../views/layouts/dashboard";
+import Addcar from "../views/layouts/addcar";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sewa" element={<Sewa />} />
         <Route path="/listcar" element={<ListCar />} />
+        <Route path="/addcar" element={<Addcar />} />
         <Route path="/detail" element={<Detail />} />
         <Route path="/tiket" element={<Tiket />} />
         <Route path="/dashboard" element={<Dashboard />} />

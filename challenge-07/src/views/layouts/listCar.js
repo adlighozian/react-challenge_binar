@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import NavigationBar from "../components/navbarLanding";
 import FooterBar from "../components/footerLanding";
@@ -7,7 +7,7 @@ import CardLanding from "../components/cardLanding";
 
 import "../../assets/css/layouts/listcar.css";
 
-function listCar() {
+function ListCar() {
   return (
     <section>
       {/* NAVBAR START */}
@@ -35,4 +35,4 @@ function listCar() {
   );
 }
 
-export default listCar;
+export default ListCar;
