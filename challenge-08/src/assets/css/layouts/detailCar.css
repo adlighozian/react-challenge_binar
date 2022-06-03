@@ -1,0 +1,82 @@
+.bgtop {
+    background: #F1F3FF;
+    height: 150px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.detailcar {
+    padding: 80px 240px 0 240px;
+}
+
+.detailcar .box {
+    width: 100%;
+    /* height: 200px; */
+    /* border: green solid; */
+}
+
+.detailcar .box .left {
+    width: 605px;
+    height: 618px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* RIGHT START */
+
+.detailcar .box .right {
+    width: 405px;
+    height: 435px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    /* border: black solid; */
+    padding: 10px;
+}
+
+.detailcar .box .right .pict {
+    /* border: solid red; */
+    width: 100%;
+    height: 60%;
+}
+
+.detailcar .box .right .detail {
+    width: 100%;
+    height: 30%;
+}
+
+.detailcar .box .right .button {
+    width: 100%;
+    height: 10%;
+}
+
+.detailcar .box .right .button button {
+    width: 100%;
+    background: #5CB85F;
+    border: 0;
+}
+
+.detailcar .box .right .detail .p2 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.detailcar .box .right .detail .item {
+    margin-right: 10px;
+}
+
+.detailcar .box .right .detail .item p {
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5px;
+}
+
+/* RIGHT END */

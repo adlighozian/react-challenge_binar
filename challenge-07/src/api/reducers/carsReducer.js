@@ -1,12 +1,12 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { fetchAllCars } from '../../service/cars';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { fetchAllCars } from "../actions/carsAction";
 
-export const getCars = createAsyncThunk('cars/getCars', async () => {
+export const getCars = createAsyncThunk("cars/getCars", async () => {
   try {
     const res = await fetchAllCars();
     return res;
   } catch (error) {
-    throw new Error(error?.message ?? 'Get cars failed');
+    throw new Error(error?.message ?? "Get cars failed");
   }
 });
 
@@ -17,7 +17,7 @@ const initialState = {
 };
 
 const carsSlice = createSlice({
-  name: 'cars',
+  name: "cars",
   initialState,
   reducers: {},
   extraReducers: {

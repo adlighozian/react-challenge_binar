@@ -1,0 +1,55 @@
+.sewa {
+    background: #F1F3FF;
+    height: 504px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.sewa .p1 {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sewa .p2 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sewa .left {
+    width: 50%;
+    height: 50%;
+}
+
+.sewa .right {
+    width: 50%;
+    height: 100%;
+}
+
+.sewa .right img {
+    z-index: 999;
+}
+
+.sewa .right .bg {
+    background: #0D28A6;
+    width: 50%;
+    height: 200px;
+    border-top-left-radius: 50px;
+    margin-left: 100px;
+}
+
+.line {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* HOME END */
