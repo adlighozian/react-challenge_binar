@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "../views/App";
+import Home from "../views/layouts/home";
 
 function App() {
   return (
