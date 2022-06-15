@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    background: #DE9E48;
+    padding: 0 100px;
+    /* border: solid red; */
+}
+
+.footer .box {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+}
